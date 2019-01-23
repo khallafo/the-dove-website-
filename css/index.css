@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: capitalize;
+  font-size: 22px;
+  height: 2000px; }
+
+/*start  navbar section*/
+.navbar {
+  position: fixed;
+  z-index: 1; }
+
+.navbar-light .navbar-brand {
+  color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: bold; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: -9px;
+  margin-left: 78px;
+  padding-top: 20px;
+  transition: all 1s ease-in-out; }
+
+.dropdown-item {
+  padding-top: 10px; }
+
+.dropdown-item:hover {
+  color: #69C399; }
+
+.row .col .dropdown-item {
+  display: inline-block; }
+
+/*start main section*/
+.main, .why {
+  margin-bottom: 50px;
+  width: 100%;
+  height: 600px;
+  background: url(../images/network-room.jpeg) fixed;
+  min-height: 300px; }
+  .main .search, .why .search {
+    min-height: 300px;
+    margin-top: 230px;
+    width: 583px;
+    height: 346px;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    text-align: center; }
+  .main input, .why input {
+    width: 100%;
+    font-size: 13.5px;
+    font-family: "Open Sans";
+    color: #fff;
+    border: 1px solid #22262f;
+    border-radius: 50px;
+    padding: 15px 20px 15px 30px;
+    background-color: #22262f;
+    outline: 0;
+    font-size: 20px;
+    transition: 0.5s; }
+  .main ul li, .why ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 52px;
+    float: left;
+    padding-top: 23px; }
+
+/*start best plan section*/
+.plan, .why, .services {
+  text-align: center;
+  margin-bottom: 50px; }
+  .plan p, .why p, .services p {
+    color: #CACACA;
+    margin-bottom: 30px; }
+  .plan .col-md-3, .why .col-md-3, .services .col-md-3, .plan .why, .why .why, .services .why, .plan .col-xs-12, .why .col-xs-12, .services .col-xs-12, .plan .why, .why .why, .services .why {
+    margin-left: 90px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 500px;
+    transition: 0.5s;
+    border: 1px solid white;
+    border-left-color: aqua;
+    border-bottom-color: white;
+    border-right-color: aqua;
+    border-top-color: white; }
+    .plan .col-md-3 .former, .why .col-md-3 .former, .services .col-md-3 .former, .plan .why .former, .why .why .former, .services .why .former, .plan .col-xs-12 .former, .why .col-xs-12 .former, .services .col-xs-12 .former, .plan .why .former, .why .why .former, .services .why .former {
+      color: #CACACA; }
+    .plan .col-md-3 ul, .why .col-md-3 ul, .services .col-md-3 ul, .plan .why ul, .why .why ul, .services .why ul, .plan .col-xs-12 ul, .why .col-xs-12 ul, .services .col-xs-12 ul, .plan .why ul, .why .why ul, .services .why ul {
+      padding-top: 50px; }
+      .plan .col-md-3 ul li, .why .col-md-3 ul li, .services .col-md-3 ul li, .plan .why ul li, .why .why ul li, .services .why ul li, .plan .col-xs-12 ul li, .why .col-xs-12 ul li, .services .col-xs-12 ul li, .plan .why ul li, .why .why ul li, .services .why ul li {
+        padding-bottom: 5px;
+        text-decoration: none;
+        font-size: 14px; }
+    .plan .col-md-3 button, .why .col-md-3 button, .services .col-md-3 button, .plan .why button, .why .why button, .services .why button, .plan .col-xs-12 button, .why .col-xs-12 button, .services .col-xs-12 button, .plan .why button, .why .why button, .services .why button {
+      color: #69C399;
+      border: 1px solid #69C399;
+      background-color: white; }
+    .plan .col-md-3 button:hover, .why .col-md-3 button:hover, .services .col-md-3 button:hover, .plan .why button:hover, .why .why button:hover, .services .why button:hover, .plan .col-xs-12 button:hover, .why .col-xs-12 button:hover, .services .col-xs-12 button:hover, .plan .why button:hover, .why .why button:hover, .services .why button:hover {
+      background-color: #69C399;
+      color: black; }
+  .plan .col-md-3:hover, .why .col-md-3:hover, .services .col-md-3:hover, .plan .why:hover, .why .why:hover, .services .why:hover, .plan .col-xs-12:hover, .why .col-xs-12:hover, .services .col-xs-12:hover, .plan .why:hover, .why .why:hover, .services .why:hover {
+    box-shadow: 0px 5px 0 2px #75d69c80, 0 5px 25px 0 #75d69c6e;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1); }
+
+/*start why section*/
+.why {
+  margin-bottom: 50px;
+  padding-bottom: 150px; }
+  .why .col-md-3, .why .why, .why .col-xs-12, .why .why {
+    background-color: white;
+    height: 300px; }
+  .why .fab {
+    color: white;
+    background-color: white; }
+
+/*start our services section*/
+.services {
+  background-color: #F6F6F6; }
+  .services .col-md-4, .services .col-xs-6 {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    transition: 0.5s;
+    border: 1px solid white;
+    border-left-color: aqua;
+    border-bottom-color: white;
+    border-right-color: aqua;
+    border-top-color: white; }
+  .services .col-md-4:hover, .services .col-xs-6:hover {
+    box-shadow: 0px 5px 0 2px #75d69c80, 0 5px 25px 0 #75d69c6e;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1); }
+  .services .btn:hover {
+    background-color: #69C399; }
+
+/*start our contact us section*/
+.contact-us input {
+  padding: 18px 33px;
+  width: 100%;
+  border: solid 1px #efefef;
+  margin-bottom: 33px; }
+.contact-us p {
+  font-size: 18px; }
+.contact-us .col-md-4 {
+  background-color: #69C399;
+  color: white;
+  margin-left: 110px; }
+.contact-us .col-md-6 .col-md-5 input {
+  padding: 18px 33px;
+  width: 100%;
+  border: solid 1px #efefef; }
+.contact-us .btn {
+  background-color: #69C399;
+  padding: 15px;
+  transition: all 0.5s ease;
+  font-size: 20px; }
+.contact-us .btn:hover {
+  background-color: #808080; }
+
+/*start info section*/
+.info .info-at {
+  background-color: #22262F; }
+
+/*# sourceMappingURL=index.css.map */
